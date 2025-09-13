@@ -5,14 +5,14 @@ export const data = {
         website: "merv.space",
     },
     library: [
-        {name : "author-interface-js", url:"#"},
-        {name : "air-cli-sh", url:"#"},
-        {name : "weather-cpp", url:"#"},
-        {name : "file-io-cpp", url:"#"},
+        {name : "author-interface-js", url:"https://github.com/falconeri-8/log-app"},
+        {name : "air-cli-sh", url:"https://github.com/falconeri-8/air-cli"},
+        {name : "weather-cpp", url:"https://github.com/falconeri-8/REST-API-cpp"},
+        {name : "file-io-cpp", url:"https://github.com/falconeri-8/wx-cpp"},
     ],
     history: [
-        {company: "Company", position: "Position", date: "MM/YY - MM/YY"},
-        {company: "Company", position: "Position", date: "MM/YY - MM/YY"},
+        // {company: "Company", position: "Position", date: "MM/YY - MM/YY"},
+        // {company: "Company", position: "Position", date: "MM/YY - MM/YY"},
     ],
     repertoire: [
         ["JavaScript", "TypeScript", "Node.js", "Express.js", "React", "Next.js"],

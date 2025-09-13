@@ -26,7 +26,7 @@ function Hyperlink({name, url}) {
 export default function Landing() {
     return (
         <div className="relative flex min-h-screen overflow-hidden">
-            <div className="w-1/2 bg-black min-h-screen p-8 font-mono relative">
+            <div className="w-1/2 bg-black min-h-screen p-8 font-mono relative z-20">
                 <div className="mb-12">
                     <h1 className="text-lg font-normal mb-8 text-neutral-300">{portfolioData.credentials.website}</h1>
                     <div className="mb-8">
@@ -78,12 +78,12 @@ export default function Landing() {
             </div>
             <div className="w-1/2 bg-black min-h-screen">
                 <FlickeringGrid
-                    // className="absolute inset-0"
-                    squareSize={6}
-                    gridGap={25}
+                    className="absolute inset-0 z-0"
+                    squareSize={5}
+                    gridGap={30}
                     flickerChance={0.3}
                     color="rgb(200, 25, 25)"
-                    maxOpacity={0.2}
+                    maxOpacity={0.8}
                 />
             </div>
         </div>
