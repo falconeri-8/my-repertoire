@@ -10,6 +10,7 @@ export const data = {
         {name : "air-cli-sh", url:"https://github.com/falconeri-8/air-cli"},
         {name : "weather-cpp", url:"https://github.com/falconeri-8/REST-API-cpp"},
         {name : "file-io-cpp", url:"https://github.com/falconeri-8/wx-cpp"},
+        
     ],
     history: [
         // {company: "Company", position: "Position", date: "MM/YY - MM/YY"},
